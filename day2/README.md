@@ -26,22 +26,22 @@ int tax_percent: the tax percentage
 ```
 Returns The function returns nothing. Print the calculated value, rounded to the nearest integer.
 
-Note: Be sure to use precise values for your calculations, or you may end up with an incorrectly rounded result.
+**Note**: Be sure to use precise values for your calculations, or you may end up with an incorrectly rounded result.
 
-Input Format
+### Input Format
 
 There are `3` lines of numeric input:
 The first line has a double,  meal cost (the cost of the meal before tax and tip).
 The second line has an integer, tip percent (the percentage of meal cost being added as tip).
 The third line has an integer, tax percent (the percentage of meal cost being added as tax).
 
-Sample Input
+**Sample Input**
 ```
 12.00
 20
 8
 ```
-Sample Output
+**Sample Output**
 ```
 15
 ```
