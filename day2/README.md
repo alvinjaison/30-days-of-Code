@@ -1,16 +1,19 @@
-Objective
+# Objective
+
 In this challenge, you will work with arithmetic operators. Check out the Tutorial tab for learning materials and an instructional video.
 
-Task
+## Task
+
 Given the meal price (base cost of a meal), tip percent (the percentage of the meal price being added as tip), and tax percent (the percentage of the meal price being added as tax) for a meal, find and print the meal's total cost. Round the result to the nearest integer.
 
-Example
+### Example
+```
 meal cost = 100
 tip percent = 15
 tax percent = 8
+```
 
-
-A tip of 15% * 100 = 15, and the taxes are 8% * 100 = 8. Print the value  and return from the function.
+A tip of `15% * 100 = 15`, and the taxes are `8% * 100 = 8`. Print the value  and return from the function.
 
 Function Description
 Complete the solve function in the editor below.
@@ -26,35 +29,38 @@ Note: Be sure to use precise values for your calculations, or you may end up wit
 
 Input Format
 
-There are 3 lines of numeric input:
+There are `3` lines of numeric input:
 The first line has a double,  meal cost (the cost of the meal before tax and tip).
 The second line has an integer, tip percent (the percentage of meal cost being added as tip).
 The third line has an integer, tax percent (the percentage of meal cost being added as tax).
 
 Sample Input
-
+```
 12.00
 20
 8
+```
 Sample Output
-
+```
 15
-Explanation
+```
+### Explanation
 
 Given:
+```
 meal_cost = 12
 tip_percent = 20
 tax_percent = 8
-
+```
 Calculations:
-
+```
 tip = (12/100)*20 = 2.4
 tax = (8/100)*20 = 0.96
 
 total_cost = meal_cost + tip + tax = 12 + 20 + 8 = 15.36
 round(total_cost) = 15
-
-We round total_cost to the nearest integer and print the result, 15.
+```
+We round total_cost to the nearest integer and print the result, `15`.
 
 
 ##Solution
